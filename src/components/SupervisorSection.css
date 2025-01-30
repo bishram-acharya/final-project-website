@@ -1,0 +1,80 @@
+/* SupervisorSection.css */
+
+.supervisor {
+    background: linear-gradient(to right, #4e54c8, #8f94fb); /* Elegant gradient background */
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .supervisor-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .supervisor-photo {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .supervisor-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; /* Circular photo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .supervisor-details {
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .supervisor-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    margin-bottom: 10px;
+  }
+  
+  .supervisor-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #ffd700; /* Golden color for the name */
+  }
+  
+  .supervisor-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+  }
+  
+  @media (max-width: 768px) {
+    .supervisor-container {
+      flex-direction: column;
+    }
+  
+    .supervisor-photo {
+      margin-bottom: 20px;
+    }
+  
+    .supervisor-details {
+      text-align: center;
+    }
+  }
+  
